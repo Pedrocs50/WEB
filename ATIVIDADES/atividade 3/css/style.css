@@ -3,7 +3,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-@keyframes texto {
+@keyframes animacao_texto {
     0% {
         opacity: 0;
         transform: tranlateY(-50px);
@@ -20,7 +20,7 @@ header {
 } 
 
 #nome {
-    animation: texto 5s ease-out;
+    animation: animacao_texto 5s ease-out;
 }
 
 #sobre {
@@ -78,4 +78,5 @@ footer {
     color: aliceblue;
     margin: 10px auto;
     width: 800px;
+    padding-bottom: 15px;
 }
