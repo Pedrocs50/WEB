@@ -34,6 +34,11 @@ header {
     width: 800px;
 }
 
+#texto_sobre {
+    text-align: justify;
+    margin: 20px;
+}
+
 #interesses {
     background-color: aliceblue;
     border-style: solid;
