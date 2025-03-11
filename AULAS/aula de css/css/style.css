@@ -1,0 +1,39 @@
+header, footer {
+    background-color:black;
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 60px;
+    border-style: solid;
+    border-color:brown;
+    border-width:5px;
+    text-align: center;
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+i {
+    background-color: black;
+    color: aliceblue;
+}
+
+main {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+/* 
+main {
+    color:blue;
+} */
+
+/* #secao2 {
+    background-color: aqua;
+} */
+
+/* .roxo {
+    background-color: blueviolet;
+} */

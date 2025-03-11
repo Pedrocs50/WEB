@@ -1,0 +1,81 @@
+body {
+    background-image:url(../img/ceu.png);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+        transform: tranlateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+} 
+
+#nome {
+    animation: texto 5s ease-out;
+}
+
+#sobre {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+}
+
+#interesses {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+}
+
+#texto_interesses {
+    text-align: justify;
+}
+
+#habilidades {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+}
+
+#texto_programacao {
+    text-align: justify;
+}
+
+#texto_design {
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(63, 170, 233);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 2px;
+    color: aliceblue;
+    margin: 10px auto;
+    width: 800px;
+}
