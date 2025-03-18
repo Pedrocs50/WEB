@@ -1,0 +1,150 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-image:url(../img/ceu.png);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+@keyframes animacao_texto {
+    0% {
+        opacity: 0;
+        transform: tranlateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+} 
+
+#nome {
+    animation: animacao_texto 5s ease-out;
+}
+
+#sobre {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+    border-color: #FFA500;
+}
+
+#texto_sobre {
+    text-align: justify;
+    margin: 20px;
+}
+
+#interesses {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+    border-color: #FFA500;
+}
+
+#texto_interesses {
+    text-align: justify;
+}
+
+#habilidades {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+    border-color: #FFA500;
+}
+
+#texto_programacao {
+    text-align: justify;
+}
+
+#texto_design {
+    text-align: justify;
+}
+
+#projeto_cantina{
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-color: #FFA500;
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px auto;
+    width: 800px;
+    padding-bottom: 15px;
+}
+
+#projeto_cantina > a{
+    color: blue;
+    background-color: powderblue;
+    transition: background-color 0.5s;  
+}
+
+#projeto_cantina > a:hover{
+    color: #00008B;
+    background-color: #FFA500 ;
+}
+
+
+#footer_contatos {
+    background-color: rgb(63, 170, 233);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 2px;
+    color: aliceblue;
+    margin: 10px auto;
+    width: 800px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 20px;
+    left: auto;
+}
+
+#footer_creditos {
+    position: fixed; 
+    right: 0; 
+    bottom: 20px; 
+    padding: 10px;
+    background-color: rgba(255, 255, 48, 0.63); 
+    color: rgb(0, 0, 0); 
+}
+

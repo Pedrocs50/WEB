@@ -1,0 +1,40 @@
+* {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    text-align: left;    
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 90px;
+}
+
+header p{
+    text-align: left;
+}
+
+body {
+    margin: 10px;
+    text-align: center;
+}
+
+body p {
+    text-align: justify;
+}
+
+#p1 {
+    text-align: justify;
+    width:40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(42, 165, 214);
+    border-radius: 5px;
+    border-width: 2px;
+    width: 800px;
+}
