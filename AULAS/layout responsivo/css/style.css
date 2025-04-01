@@ -1,0 +1,22 @@
+*  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    body {
+        background-color: lightblue;
+    }
+} /* funcionalidade que faz com que a tela mude a cor do background quando redimencionar a tela(diminuindo), importante saber que a regra se aplica ao body* na situação descrita, como se fosse um if/else */
+
+.col-1 {
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
