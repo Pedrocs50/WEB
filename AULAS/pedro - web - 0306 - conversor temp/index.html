@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Radio - convertor</title>
+</head>
+<body>
+    <form>
+    <label>
+        <input id="conversorValor" name="valor" type="text" placeholder="Insira um valor para ser convertido">
+    </label> <br/><br/>
+
+    <label>
+        <input type="radio" name="conversor" value="Celsius"> Celsius
+    </label><br>
+    <label>
+        <input type="radio" name="conversor" value="Fahrenheit"> Fahrenheit
+    </label><br>
+
+    <label>
+        <input type="radio" name="conversor" value="outro" checked> Outro
+    </label><br>
+
+    <button id="btnEnviar">Enviar</button>
+    </form>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
