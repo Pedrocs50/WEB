@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #34373a;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #303136;
+    padding:90px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.tarefa {
+    color: aliceblue;
+    background: #787a82;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarefa span {
+    display: block;
+}
+
+.botoes button {
+    margin-left: 5px;
+}
